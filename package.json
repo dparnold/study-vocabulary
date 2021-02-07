@@ -4,7 +4,8 @@
   "description": "This module will help you to import vocabulary and subsequently study it as efficiently as possible.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/dparnold/study-vocabulary/issues"
   },
-  "homepage": "https://github.com/dparnold/study-vocabulary"
+  "homepage": "https://github.com/dparnold/study-vocabulary",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "@azure/cosmos": "^3.9.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3",
+    "pug": "^3.0.0"
+  }
 }

@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  div#overlay
+  div#messageWindow
+    h2 Instructions:
+    p - Say the English word in Spanish
+    p 
+      |- If you want to hear the English word again say 
+      strong "Otra vez"
+    p 
+      |- If you do not know the translation say 
+      strong "No sé"
+    button#okButton Let's go
+  h1#title Spanish Speech Vocabulary
+  div#description
+    div(class="center")
+      h2 Instructions:
+        p - Say the spanish word shown below
+        p - If it was detected you'll be shown another word
+  div#wordContainer
+    p#word Loading...
+    p#hint Here the words will be shown as soon as they are loaded from the server
+  script(src="/javascripts/jquery-3.5.1.min.js")
+  script(src="/javascripts/annyang.js")
+  script(src='/javascripts/main.js')

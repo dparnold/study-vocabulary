@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  script(src="/javascripts/jquery-3.5.1.min.js")
+  script(src='/javascripts/speak.js')
+  h1#title Spanish Speech Vocabulary
+  div#description
+    div(class="center")
+      h2 Instructions:
+        p - Click or tap somewhere on the page
+        p - Say the spanish word shown below
+        p - If it was detected you'll be shown another word
+  div#wordContainer
+    p#word word
+    p#hint hint

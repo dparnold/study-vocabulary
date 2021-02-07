@@ -1,0 +1,90 @@
+
+*{
+  padding:0px;
+  margin: 0px;
+  --colorMain:#93bb26;
+}
+html {
+  box-sizing: border-box;
+}
+body{
+  overflow-y: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-size: 2rem;
+  background-color: #00B7FF; /* Green */
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1{
+  font-size: 4rem;
+  text-align: center;
+  background-color: #00B7FF;
+  padding: 2rem;
+}
+
+p{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+#overlay{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#messageWindow{
+  font-size: 2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+#description{
+  display: none;
+  padding: 1rem;
+  background-color:#8AE9C1;
+}
+div .center{
+  display: table;
+  font-size: 1.5rem;
+  margin:auto;
+  padding: 1rem 5rem;
+}
+
+#wordContainer{
+  padding-top: 2rem;
+  background-color: #fdf9ee;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#word{
+  padding: 2rem;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+}
+#hint{
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
