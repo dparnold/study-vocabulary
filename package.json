@@ -1,0 +1,23 @@
+{
+  "name": "study-vocabulary",
+  "version": "0.0.1",
+  "description": "This module will help you to import vocabulary and subsequently study it as efficiently as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dparnold/study-vocabulary.git"
+  },
+  "keywords": [
+    "vocabulary",
+    "study"
+  ],
+  "author": "dparnold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dparnold/study-vocabulary/issues"
+  },
+  "homepage": "https://github.com/dparnold/study-vocabulary"
+}
