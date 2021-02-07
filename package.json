@@ -1,6 +1,6 @@
 {
   "name": "study-vocabulary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This module will help you to import vocabulary and subsequently study it as efficiently as possible.",
   "main": "index.js",
   "scripts": {
